@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.quiz-container {
+    width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#progress {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #2980b9;
+}
+
+.correct {
+    background: #2ecc71;
+}
+
+.wrong {
+    background: #e74c3c;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#prev-btn, #next-btn, #submit-btn, #restart-btn {
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#prev-btn {
+    background: #e67e22;
+}
+
+#prev-btn:hover {
+    background: #d35400;
+}
+
+#next-btn {
+    background: #2ecc71;
+}
+
+#next-btn:hover {
+    background: #27ae60;
+}
+
+#restart-btn {
+    background: #3498db;
+}
+
+#restart-btn:hover{
+    background: #2980b9;
+}
+
+#submit-btn {
+    background: #e74c3c;
+    display: none;
+}
+
+#submit-btn:hover {
+    background: #c0392b;
+}
+
+#question-nav {
+    margin-top: 20px;
+}
+
+.question-btn {
+    background: #7f8c8d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.question-btn:hover {
+    background: #464e4e;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.question-btn.active {
+    background: #3498db;
+}
+.selected {
+    background: #f1c40f;
+    color: black;
+}
+
+.answered {
+    background: #2ecc71 !important; /* Green for answered questions */
+}
